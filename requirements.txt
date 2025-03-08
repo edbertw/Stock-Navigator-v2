@@ -1,0 +1,13 @@
+django
+djangorestframework
+pandas
+autots
+numpy
+plotly
+yfinance
+django-cors-headers
+langchain
+faiss-cpu
+transformers
+bs4
+langchain-community
