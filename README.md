@@ -1,8 +1,7 @@
 # Stock-Navigator
 
-## New Feature (Ongoing production)
-RAG-based chatbot to handle stock statistics questions through web-scraped Knowledge Base
-- To do: Integrate the built RAG system to backend and frontend systems
+## New Feature
+RAG-based chatbot to handle stock statistics questions through web-scraped Knowledge Base. Integrated with frontend using Django REST APIs
 
 ## What is it?
 One stop full-stack application for stock market enthusiasts to find out more information about their favourite stocks. Information range from non-technical to highly statistical metrics and interactive charts used to measure stock performance and future opportunities for prospective investors. Another feature includes curated stock price prediction using autoTS with results displayed in a chart.
@@ -23,3 +22,9 @@ One stop full-stack application for stock market enthusiasts to find out more in
 8. Plotly.js
 9. autoTS (Time-Series)
 10. yFinance API
+11. Postman API
+12. LangChain
+13. FAISS Vector Database
+14. Transformers (FLAN-T5 BASE)
+15. Hugging Face
+
