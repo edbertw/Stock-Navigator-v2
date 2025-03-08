@@ -1,7 +1,7 @@
 {
     "build": {
       "env": {
-        "DJANGO_SETTINGS_MODULE": "your_project.settings.production"
+        "DJANGO_SETTINGS_MODULE": "mybackend.settings.production"
       },
       "cmd": "pip install -r requirements.txt && python manage.py collectstatic --noinput"
     },
