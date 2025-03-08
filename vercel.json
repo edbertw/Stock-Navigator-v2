@@ -1,12 +1,15 @@
 {
-    "build": {
-      "env": {
+    "env": {
         "DJANGO_SETTINGS_MODULE": "mybackend.settings.production"
-      },
-      "cmd": "pip install -r requirements.txt && python manage.py collectstatic --noinput"
     },
+    "builds": [
+        {
+            "src": "manage.py",
+            "use": "@vercel/python"
+        }
+    ],
     "routes": [
-      { "src": "/static/(.*)", "dest": "/static/$1" },
-      { "src": "/(.*)", "dest": "index.html" }
+        { "src": "/static/(.*)", "dest": "/static/$1" },
+        { "src": "/(.*)", "dest": "index.html" }
     ]
 }
