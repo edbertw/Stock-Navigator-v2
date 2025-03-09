@@ -1,13 +1,15 @@
 # Stock-Navigator v2.0
 
-## New Feature
-RAG-based chatbot to handle stock statistics questions through web-scraped Knowledge Base. Integrated with frontend using Django REST APIs
+## Current works:
+1. Integrating frontend and backend with Vercel for deployment
+2. Adding more types of stocks
+3. Optimizing performance of RAG and AutoTS models
 
 ## What is it?
 One stop full-stack application for stock market enthusiasts and experts to find out more statistical information about their favourite stocks. Information range from non-technical to highly statistical metrics and interactive charts used to measure stock performance and future opportunities for prospective investors. Another feature includes curated stock price prediction using autoTS with results displayed in a chart, as well as a Retrieval Augmented Generation-powered chatbot with detailed stock jargon knowledge base
 
 ## How to run?
-1. pip install -r requirements.txt
+1. ```pip install -r requirements.txt```
 2. Navigate to mybackend directory and run `python manage.py runserver` to start Django server
 3. Navigate to src directory and run `npm start` to start React application
 
