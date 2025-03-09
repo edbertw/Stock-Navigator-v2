@@ -1,6 +1,6 @@
 # Stock-Navigator v2.0
 
-## Current works:
+## Current works
 1. Integrating frontend and backend with Vercel for deployment
 2. Adding more types of stocks
 3. Optimizing performance of RAG and AutoTS models
