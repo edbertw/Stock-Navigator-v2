@@ -1,4 +1,4 @@
-# Stock-Navigator
+# Stock-Navigator v2.0
 
 ## New Feature
 RAG-based chatbot to handle stock statistics questions through web-scraped Knowledge Base. Integrated with frontend using Django REST APIs
